@@ -14,25 +14,25 @@ class Car
    public string color;
    public int year;
    
-   Car()
+   public Car()
    {
        year = 1950;
        wheels = 4;
-       Color = "Black";
+       color = "Black";
    }
    
-   Car(int Year, int Wheels, string Color)
+   public Car(int Year, int Wheels, string Color)
    {
        this.year = Year;
        this.color = Color;
-       this.wheels = wheels;
+       this.wheels = Wheels;
    }
    
    public void info()
    {
        Console.WriteLine("Wheels: " +wheels );
        Console.WriteLine("Color: " +color );
-       Console.WriteLine("Year: " +whyeareels );
+       Console.WriteLine("Year: " +wheels );
    }
    
    
